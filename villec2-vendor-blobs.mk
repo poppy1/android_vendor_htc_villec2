@@ -27,10 +27,21 @@ PRODUCT_COPY_FILES += \
   vendor/htc/villec2/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/villec2/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/villec2/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
+  vendor/htc/villec2/proprietary/bin/akmd:system/bin/akmd \
+  vendor/htc/villec2/proprietary/bin/alsaucm_test:system/bin/alsaucm_test \
+  vendor/htc/villec2/proprietary/bin/amix:system/bin/amix \
+  vendor/htc/villec2/proprietary/bin/aplay:system/bin/aplay \
+  vendor/htc/villec2/proprietary/bin/arec:system/bin/arec \
+  vendor/htc/villec2/proprietary/bin/audiod:system/bin/audiod \
   vendor/htc/villec2/proprietary/bin/cand:system/bin/cand \
   vendor/htc/villec2/proprietary/bin/charging:system/bin/charging \
+  vendor/htc/villec2/proprietary/bin/ewtzmud:system/bin/ewtzmud \
   vendor/htc/villec2/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/villec2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+  vendor/htc/villec2/proprietary/bin/mm-vdec-omx-test:system/bin/mm-vdec-omx-test \
+  vendor/htc/villec2/proprietary/bin/mm-venc-omx-test720p:system/bin/mm-venc-omx-test720p \
+  vendor/htc/villec2/proprietary/bin/mm-video-driver-test:system/bin/mm-video-driver-test \
+  vendor/htc/villec2/proprietary/bin/mm-video-encdrv-test:system/bin/mm-video-encdrv-test \
   vendor/htc/villec2/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/villec2/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/villec2/proprietary/bin/netsharing:system/bin/netsharing \
@@ -39,6 +50,17 @@ PRODUCT_COPY_FILES += \
   vendor/htc/villec2/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/villec2/proprietary/bin/zchgd:system/bin/zchgd \
   vendor/htc/villec2/proprietary/bin/awb_camera:system/bin/awb_camera \
+  vendor/htc/villec2/proprietary/lib/libalsa-intf.so:system/lib/libalsa-intf.so \
+  vendor/htc/villec2/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
+  vendor/htc/villec2/proprietary/lib/libexternal.so:system/lib/libexternal.so \
+  vendor/htc/villec2/proprietary/lib/libfrsdk.so:system/lib/libfrsdk.so \
+  vendor/htc/villec2/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+  vendor/htc/villec2/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+  vendor/htc/villec2/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
+  vendor/htc/villec2/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
+  vendor/htc/villec2/proprietary/lib/libvorbisencoder.so:system/lib/libvorbisencoder.so \
+  vendor/htc/villec2/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+  vendor/htc/villec2/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
   vendor/htc/villec2/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/villec2/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/villec2/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
@@ -80,6 +102,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/villec2/proprietary/etc/firmware/default_bak.acdb:system/etc/firmware/default_bak.acdb \
   vendor/htc/villec2/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
   vendor/htc/villec2/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+  vendor/htc/villec2/proprietary/etc/snd_soc_msm/snd_soc_msm_2x:system/etc/snd_soc_msm/snd_soc_msm_2x \
   vendor/htc/villec2/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/villec2/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/villec2/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
