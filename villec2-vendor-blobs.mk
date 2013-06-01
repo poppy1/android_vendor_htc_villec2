@@ -108,6 +108,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/villec2/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/villec2/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/htc/villec2/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+  vendor/htc/villec2/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
   vendor/htc/villec2/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/villec2/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
   vendor/htc/villec2/proprietary/lib/libgsl.so:system/lib/libgsl.so \
